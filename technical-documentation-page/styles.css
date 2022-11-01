@@ -1,0 +1,30 @@
+#navbar {
+   position: fixed; 
+}
+
+nav ul {
+    list-style: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 320px;
+    margin-right: 20px
+}
+
+header {
+    font-size: 1.8em;
+    padding-top: 1em;
+}
+
+code {
+    line-height: 2;
+    background-color: rgba(207, 199, 199, 0.256);
+}
