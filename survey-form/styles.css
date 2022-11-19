@@ -3,3 +3,20 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    background: darkblue;
+    color: white;
+    margin: 10px;
+}
+
+header {
+    padding: 1.5em;
+}
+
+main {
+    background: rgba(139, 0, 0, 0.264);
+    margin: auto;
+    width: 50vw;
+    padding: 20px;
+}
