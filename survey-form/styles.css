@@ -2,21 +2,56 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background: darkblue;
+    background: darkblue url(imagens/pexels-mikhail-nilov-7988079.jpg) no-repeat fixed center;
+    background-size: auto;
     color: white;
     margin: 10px;
 }
 
 header {
     padding: 1.5em;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bolder;
+    padding: 5px;
 }
 
 main {
-    background: rgba(139, 0, 0, 0.264);
+    background: rgb(0, 0, 139);
     margin: auto;
-    width: 50vw;
-    padding: 20px;
+    width: 70vw;
+    padding: 25px;
+}
+
+div {
+    padding: 10px;
+}
+
+#name, #email, #number, select {
+    width: 100%;
+}
+
+#optional {
+    font-style: italic;
+}
+
+fieldset {
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: lightgreen;
+    color: white;
+}
+
+button:hover {
+    background-color: green;
 }
