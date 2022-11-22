@@ -33,16 +33,25 @@ div {
     padding: 10px;
 }
 
-#name, #email, #number, select {
+#name, #email, #number, select, textarea{
     width: 100%;
 }
 
-#optional {
-    font-style: italic;
+.optional {
+    font-size: 0.8em;
 }
 
 fieldset {
     border: none;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+textarea::placeholder {
+    font-size: 1.2em;
 }
 
 button {
