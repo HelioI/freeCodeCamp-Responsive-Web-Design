@@ -37,12 +37,17 @@ div {
     width: 100%;
 }
 
+label {
+    display: block;
+}
+
 .optional {
     font-size: 0.8em;
 }
 
 fieldset {
     border: none;
+    display: flex;
 }
 
 textarea {
