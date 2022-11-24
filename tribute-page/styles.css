@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#image {
+    max-width: 2rem;
+    max-height: 2rem;
+    text-align: center;
+}
