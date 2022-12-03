@@ -1,5 +1,46 @@
-#nav-bar {
-    position: fixed;
-    top: 0px;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    height: 10vh;
+    width: 100vw;
+    background-color: azure;
+   
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-link {
+}
+
+img {
+    height: 2em;
+}
+
+main {
+    background-color: rgba(0, 0, 139, 0.189);
+}
+
+#footer-list {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
