@@ -43,6 +43,14 @@ main {
     background-color: rgba(0, 0, 139, 0.189);
 }
 
+h1 {
+    padding-top: 2em;
+}
+
+#features div {
+    padding: 20px;
+}
+
 iframe {
     max-width: 100vw;
 }
