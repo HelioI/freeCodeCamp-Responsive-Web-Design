@@ -37,18 +37,38 @@ a {
 
 img {
     height: 2em;
+    margin-top: 10px;
 }
 
 main {
     background-color: rgba(0, 0, 139, 0.189);
 }
 
-h1 {
+#top-h2 {
     padding-top: 2em;
+}
+
+#email {
+    width: 15em;
+    height: 30px;
+}
+
+#get-started {
+    font-weight: bolder;
+    padding: 5px;
+    background-color: #f1c40f;
+}
+
+#features {
+    padding: 2em;
 }
 
 #features div {
     padding: 20px;
+}
+
+#how-it-works {
+    padding: 2em;
 }
 
 iframe {
@@ -62,8 +82,33 @@ iframe {
     gap: 25px;
 }
 
+.upper-box {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.trombone-type {
+    background-color: bisque;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.trombone-type h2 {
+    padding: 15px;
+}
+
+.botao {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #f1c40f;
+    font-weight: bolder;
+}
+
 footer {
     width: 90vw;
+    padding: 20px;
 }
 
 #footer-list {
