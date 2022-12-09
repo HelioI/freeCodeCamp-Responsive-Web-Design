@@ -15,9 +15,17 @@ header {
     top: 0px;
     height: 10vh;
     width: 100vw;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
+}
+
+header ul {
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 li {
@@ -41,22 +49,16 @@ img {
 }
 
 main {
-    background-color: rgba(0, 0, 139, 0.189);
+    background-color: #7f7e7e2c;
 }
 
 #top-h2 {
-    padding-top: 2em;
+    padding-top: 3em;
 }
 
 #email {
     width: 15em;
     height: 30px;
-}
-
-#get-started {
-    font-weight: bolder;
-    padding: 5px;
-    background-color: #f1c40f;
 }
 
 #features {
@@ -65,6 +67,10 @@ main {
 
 #features div {
     padding: 20px;
+}
+
+#feature {
+    display: flex;
 }
 
 #how-it-works {
@@ -76,6 +82,7 @@ iframe {
 }
 
 #pricing {
+    padding: calc(2em + 20px);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -83,12 +90,12 @@ iframe {
 }
 
 .upper-box {
-    background-color: aquamarine;
+    background-color: rgba(161, 127, 255, 0.171);
     padding: 10px;
 }
 
 .trombone-type {
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0.219);
     width: 300px;
     border: 1px solid black;
     margin-bottom: 20px;
@@ -98,12 +105,19 @@ iframe {
     padding: 15px;
 }
 
-.botao {
+.btn {
     margin-top: 25px;
     margin-bottom: 15px;
     padding: 5px;
     background-color: #f1c40f;
     font-weight: bolder;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #f59d06;
+    transition: 1s;
 }
 
 footer {
