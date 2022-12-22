@@ -55,9 +55,12 @@ li {
 }
 
 blockquote {
+    max-width: 600px;
     font-style: italic;
     text-align: left;
     margin-bottom: 40px;
+    
+    
 }
 
 blockquote p {

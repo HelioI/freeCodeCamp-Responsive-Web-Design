@@ -20,6 +20,7 @@ header {
     justify-content: space-between;
 }
 
+
 header ul {
     margin-right: 50px;
     display: flex;
@@ -32,9 +33,17 @@ li {
     list-style: none;
 }
 
+
+
 #nav-bar {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+    #nav-bar {
+        display: none;
+    }
 }
 
 a {
