@@ -96,7 +96,7 @@ iframe {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 25px;
+    /* gap: 25px; */
 }
 
 .upper-box {
