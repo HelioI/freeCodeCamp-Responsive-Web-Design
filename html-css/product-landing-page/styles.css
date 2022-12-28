@@ -148,5 +148,5 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    gap: 20px;
+    gap: 2em;
 }
