@@ -13,7 +13,7 @@ body {
 header {
     position: fixed;
     top: 0px;
-    height: 10vh;
+    height: 50px;
     width: 100vw;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -32,8 +32,6 @@ header ul {
 li {
     list-style: none;
 }
-
-
 
 #nav-bar {
     display: flex;
